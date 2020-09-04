@@ -16,8 +16,7 @@ html,body{
 
 .m-img-logo{
 	display: block;
-	width: 40%;
-	padding: 30px 20px 10px 20px;
+	width: 35%;
 	margin: 0 auto;
 }
 
@@ -36,8 +35,7 @@ html,body{
 	}
 	
 	.m-img-logo{
-		width: 40%;
-		padding: 20px 10px 0px 10px;
+		width: 45%;
 	}
 
 	.m-img-cover{
@@ -95,6 +93,9 @@ html,body{
 	display: block;
 	background: transparent;
 	border:none;
+	color: #212121;
+	font-weight: 500;
+	font-size: 13px;
 }
 .m-select:required:invalid {
 	color: #BBBBBB;
@@ -104,10 +105,10 @@ select {
 	-moz-appearance: none; 
 	/* for Safari, Chrome, Opera */ 
 	-webkit-appearance: none; 
-  } 
-  select::-ms-expand { 
+} 
+select::-ms-expand { 
 	display: none; 
-  } 
+} 
 option[value=""][disabled] {
  display: none;
 }
