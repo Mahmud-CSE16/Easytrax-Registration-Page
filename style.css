@@ -1,0 +1,140 @@
+html,body{
+	max-width: 100%;
+    overflow-x: hidden;
+}
+.m-body{
+	height: 100vh;
+	background-color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+}
+
+.m-left-col{
+	background:#F2F5FF; 
+	min-height: 100vh;
+}
+
+
+.m-img-logo{
+	display: block;
+	width: 40%;
+	padding: 30px 20px 10px 20px;
+	margin: 0 auto;
+}
+
+.m-img-cover{
+	display: block;
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 667px) {
+	.m-left-col{ 
+		min-height: 100px;
+		max-height: 700px;
+	}
+	
+	.m-img-logo{
+		width: 40%;
+		padding: 20px 10px 0px 10px;
+	}
+
+	.m-img-cover{
+		width: 70%;
+	}
+}
+
+.m-right-col{
+	min-height: 100vh;
+}
+
+.registration-container{
+	display: flex;
+	align-items: center;
+}
+
+.m-registration-container{
+	min-width: 90%;
+	margin: 0 auto;
+}
+
+
+.m-txt-head{
+	color:#171717,
+}
+
+.m-form{
+	max-width: 800px;
+}
+
+.m-input{
+	width: 100%;
+	border: none;
+	font-size: 13px;
+	margin-bottom: 13px;
+	padding: 13px;
+	color: #212121;
+	font-weight: 500;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.m-input::placeholder{
+	color: #BBBBBB;
+	font-weight: 500;
+}
+
+.m-div-select{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.m-select{
+	width: 100%;
+	display: block;
+	background: transparent;
+	border:none;
+}
+.m-select:required:invalid {
+	color: #BBBBBB;
+}
+select { 
+	/* for Firefox */ 
+	-moz-appearance: none; 
+	/* for Safari, Chrome, Opera */ 
+	-webkit-appearance: none; 
+  } 
+  select::-ms-expand { 
+	display: none; 
+  } 
+option[value=""][disabled] {
+ display: none;
+}
+option {
+ color: black;
+}
+
+.m-input-blue{
+    background: #F9FCFF;
+	border-bottom: 2px rgba(0, 96, 164, .15) solid;
+}
+.m-input-orange{
+    background: #FFFAF8;
+	border-bottom: 2px rgba(242, 102, 17, .15) solid;
+}
+
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+.m-input-blue:focus{
+	border-bottom: 2px #0060A4 solid;
+}
+.m-input-orange:focus{
+	border-bottom: 2px #f26611 solid;
+}
+
+.register-btn{
+	box-shadow: 0 4px 8px 0 rgba(0, 96, 164, .40), 0 6px 20px 0 rgba(0, 96, 164, .15)
+}

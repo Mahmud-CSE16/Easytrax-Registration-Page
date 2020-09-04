@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<!-- custom css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- bootstrap link -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">	
+</head>
+<body class="m-body">
+
+	<div class="row">
+		<div class="col-md-5 m-left-col p-5">
+				<img class="m-img-logo" src="images/logo.png" alt="easytrax"> <br>
+				<img class="m-img-cover" src="images/cover-img.png" alt="easytrax">
+		</div>
+
+		<div class="col-md-7 m-right-col p-5 registration-container">
+			<div class="m-registration-container">
+			<h3 class="m-txt-head py-4" >Welcome to Easytrax</h3>
+			<form class="m-form" action="">
+				<div class="row">
+					<!--easytrax_employee-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-blue" id="easytrax_employee" placeholder="Contacted Easytrax Employee/Sales Person">
+					</div>
+		  
+					<!--name-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-orange" id="name" placeholder="Name">
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!--phone-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-orange" id="phone" placeholder="Phone">
+					</div>
+		  
+					<!--Alternative Phone-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-blue" id="alternative_phone" placeholder="Alternative Phone">
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!--Email-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-blue" id="Email" placeholder="Email">
+					</div>
+		  
+					<!--Address-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-orange" id="Address" placeholder="Address">
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!--Select Product-->
+					<div class="form-group col-md-6">
+						<div class="m-input m-input-orange m-div-select">
+							<select class="m-select" id="cars" name="cars">
+								<option value=""  disabled selected>Select Product</option>
+								<option value="saab">Saab 95</option>
+								<option value="mercedes">Mercedes SLK</option>
+								<option value="audi">Audi TT</option>
+							  </select>
+							  <img src="images/down-arrow.png" width="12" height="12" alt="">
+						</div>
+					</div>
+		  
+					<!--Car Brand and Vehicle model-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-blue" id="car_brand" placeholder="Car Brand and Vehicle model">
+					</div>
+				  </div>
+				  <div class="row">
+					<!--Remarks/Comments-->
+					<div class="form-group col-md-6">
+					  <input type="text" class="m-input m-input-blue" id="comments" placeholder="Remarks/Comments">
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="col-md-6 d-flex justify-content-between">
+						<button type="submit" class="btn btn-primary register-btn mt-3 m-2 w-100" style="background-color:#0060A4; ">Register Now</button>
+						<button type="submit" class="btn mt-3 m-2 w-100" style="color:#878787;background-color:#E9E9E9; border:none;">Cancel</button>
+					  </div>
+				  </div>
+				  <br>
+				  <br>
+				  <br>
+				  <p align="center" style="font-size: 12px;bottom:0; width: 100%;">Any Problem? Read FAQ or Email <a style="color: #0060A4" href="mailto:support@easytrax.com.bd">support@easytrax.com.bd</a> or  Call <a style="color: #0060A4" href="tel:+8809606667788">+8809606667788</a> for Help!</p>
+			</form>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
