@@ -40,6 +40,9 @@ html,body{
 	.m-img-cover{
 		width: 70%;
 	}
+	.m-txt-head{
+		font-size: 20px;
+	}
 }
 
 .m-right-col{
