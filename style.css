@@ -139,6 +139,6 @@ input:focus, textarea:focus, select:focus{
 	border-bottom: 2px #f26611 solid;
 }
 
-.register-btn{
+.register-btn:hover{
 	box-shadow: 0 4px 8px 0 rgba(0, 96, 164, .40), 0 6px 20px 0 rgba(0, 96, 164, .15)
 }
