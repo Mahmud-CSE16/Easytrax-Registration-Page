@@ -73,7 +73,6 @@ html,body{
 	width: 100%;
 	border: none;
 	font-size: 13px;
-	margin-bottom: 13px;
 	padding: 13px;
 	color: #212121;
 	font-weight: 500;
@@ -89,6 +88,10 @@ html,body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.m-error{
+	color:red; font-size: 11px;
 }
 
 .m-select{
