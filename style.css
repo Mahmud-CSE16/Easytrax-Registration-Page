@@ -34,11 +34,11 @@ html,body{
 	}
 	
 	.m-img-logo{
-		width: 45%;
+		width:30%;
 	}
 
 	.m-img-cover{
-		width: 70%;
+		width: 50%;
 	}
 	.m-txt-head{
 		font-size: 20px;
@@ -81,7 +81,7 @@ html,body{
 }
 .m-input::placeholder{
 	color: #BBBBBB;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 .m-div-select{
